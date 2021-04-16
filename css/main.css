@@ -1,0 +1,388 @@
+.btnPrvNxt.btnPrvNxt									/* Blog */									/* Blog */									/* Blog */@charset "UTF-8";
+/* CSS Document */
+
+@font-face{
+	font-family:"SFU Futura";
+	src: url("../font/SFUFuturaRegular.TTF");
+	font-style: normal;
+}
+@font-face{
+	font-family: "iCielBC Le Jeune Poster Light";
+	src: url("../font/iCielBCLeJeunePoster-Light.woff");
+	font-style: normal;
+}
+
+									/* Nav Bar */
+
+.nav-item a{
+	font-family: "iCielBC Le Jeune Poster Light";
+}
+
+.navbar{
+	height: auto;
+	width: auto;
+}
+
+.navbar-brand img:link, img:visited{
+	opacity: 0.7;
+	margin: 10px 0 10px 0;
+}
+
+.navbar-brand img:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.nav-item{
+	padding: 0 20px 0 20px;
+	float: none;
+}
+
+.nav-item a:link, a:visited{
+	font-size: 20px;
+	opacity: 0.7;
+}
+
+.nav-item a:hover{
+	text-decoration: underline;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+									/* Slider Carousel */
+
+.slide{
+	height: 100vh;
+}
+
+.carousel-inner .carousel-item {
+	height: 100vh;
+	object-fit: cover;
+}
+
+.carousel-inner img {
+	height: 100vh;
+    width:  100%;
+	object-fit: cover;
+	filter: brightness(50%);
+}
+
+.centeredIndex {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 10vw;
+	font-family:"iCielBC Le Jeune Poster Light";
+	text-align: center;
+}
+
+
+									/* headerBackground */
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 10vw;
+	font-family:"iCielBC Le Jeune Poster Light";
+	text-align: center;
+}
+.headBg{
+	min-height: 900px;
+	width: auto;
+}
+.headBg img{
+	object-fit: cover;
+	height: 900px;
+	width: 100%;
+	filter: brightness(50%);
+}
+
+
+									/* Project under headBg text */
+
+.projects_underBg_text{
+	padding: 5% 5% 5% 5%;
+	position: absolute;
+	color: black;
+	font-size: 30px;
+	font-family: "SFU Futura";
+	text-align: center;
+}
+
+
+									/* Project Content */
+
+.project-content h2{
+	text-align: center;
+	margin: 5% 5% 5% 5%;
+}
+.project-content p{
+	font-size: 20px;
+}
+.project-content img{
+	height: 900px;
+	width: auto;
+	margin: 5% 5% 5% 5%; 
+	object-fit: cover;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	position: relative;
+}
+
+
+									/* Services */
+
+.service{
+	background-color:white;
+	
+	padding: 0;
+}
+.service-item{
+	margin: 50px 0 50px 0;
+	background-color:white;
+}
+.service-text{
+	margin-top: 25%; 
+}
+.service-item img{
+	height: 400px;
+	width: 80%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	object-fit: cover;
+	position: relative;
+}
+.service-item h5{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+
+									/* Content */
+
+.content-item a:link, a:visited{
+	color: black;
+}
+
+.content-item a:hover{
+	filter: brightness(70%);
+	transition: 0.5s;
+}
+
+ .content{
+	background-color: white; 
+	height: 400px;
+}
+
+.content-item{
+	height: 300px;
+	width: 300px;
+	margin: 0px 20px 0px 20px;
+	object-fit: cover;
+}
+
+.content-item img{
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	position: relative ;
+}
+
+.content-item h5{
+	font-size: 20px;
+	margin: 20px 0 20px 0;
+	font-style: oblique;
+}
+
+
+									/* Button for Next and Prev */
+
+.btnPrvNxt a {
+  	text-decoration: none;
+  	display:inline-block;
+  	padding: 8px 16px;
+}
+
+.btnPrvNxt a:hover {
+  	background-color: #ddd;
+  	color: black;
+	transition: 0.3s;
+}
+
+.previous {
+  	background-color: #f1f1f1;
+  	color: black;
+	margin: 50px 0 50px 0;
+}
+
+.next {
+  	background-color: #f1f1f1;
+  	color: black;
+	margin: 50px 0 50px 0;
+}
+
+
+									/* Blog */
+
+.blog-item h5{
+	padding: 10px 10px 10px 10px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.blog-item a:link, a:visited{
+	color: black;
+}
+
+.blog-item a:hover{
+	filter: brightness(70%);
+	transition: 0.5s;
+}
+
+ .blog{
+	background-color: white;
+	height: 420px;
+}
+
+.blog-item{
+	height: auto;
+	width: 500px;
+	margin: 30px 0px 30px 0px;	
+}
+
+.blog-item img{
+	height: 350px;
+	max-width: 100%;
+	position: relative ;
+	object-fit: cover;
+}
+.blog-content h1{
+	margin: 20px 0 20px 0;
+}
+
+.blog-content p{
+	margin: 20px 0 20px 0;
+	font-size: 15px;
+}
+
+.blog-content img{
+	height: 400px;
+	float: right;
+	margin: 5% 5% 5% 5%;
+}
+
+
+									/* Scroll Top Button */
+
+.scroll {
+    color: #fff;
+    margin-top: 100px
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color:#976F2D;
+}
+
+.js .cd-top--fade-out {
+    opacity: .5
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5, 76%, 62%, .8);
+    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
+
+.height {
+    height: 3000px
+}
+
+
+									/* Footer */
+
+.footer{
+	background-color: black;
+	height: auto;
+}
+
+.footer p{
+	margin: 50px 50px 50px 50px;
+	color: white;
+	font-size: 20px;
+}
+
+.footer img{
+	margin: 0px 50px 0px 50px;
+}
+
+.footerContact{
+	height: 250px;
+}
+
+.footerContact h2{
+	color:white;
+	margin: 70px 50px 10px 50px;
+	text-align: center;
+}
+
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+
+.containerFooter {
+  	background-color: #f1f1f1;
+	font-family:"iCielBC Le Jeune Poster Light";
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  	width: 100%;
+  	padding: 12px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  	background-color: #388A3F;
+  	color: white;
+}
+
+input[type=submit]:hover {
+  	opacity: 0.8;
+}
